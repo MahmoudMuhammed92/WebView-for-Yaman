@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single"
+        >
+        <item
+            android:id="@+id/nav_menu_top"
+            android:icon="@drawable/dash_ic"
+            android:title="Dashboard" />
+    </group>
+
+    <group
+        android:id="@+id/nav_menu_profile"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/admin_ic"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_program"
+            android:icon="@drawable/program_ic"
+            android:title="Program" />
+        <item
+            android:id="@+id/nav_lessons"
+            android:icon="@drawable/classroom"
+            android:title="Lessons" />
+    </group>
+
+
+
+    <group
+        android:id="@+id/nav_menu_students"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/drawer_view_records"
+            android:icon="@drawable/program_ic"
+            android:title="View Records"></item>
+
+        <item
+            android:id="@+id/drawer_search"
+            android:icon="@drawable/program_ic"
+            android:title="Search"></item>
+
+    </group>
+
+
+    <group
+        android:id="@+id/nav_menu_logout"
+        android:checkableBehavior="single">
+
+
+        <item
+            android:id="@+id/drawer_logout"
+            android:icon="@drawable/program_ic"
+            android:title="Logout">
+
+        </item>
+    </group>
+
+</menu>
